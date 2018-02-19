@@ -4,7 +4,7 @@
 # allows to save money on elastic ip addresses
 # create your own hosted zone and use its id in there
 # you can put it like in /etc/rc.local and use assigned A record to enter host
-# do not forget to assign Route53 role to EC2 instance to have rights for boto to run its instructions
+# do not forget to assign proper IAM role (with Route53 access) to EC2 instance to have rights for boto to run its instructions
 
 import boto3
 import subprocess
