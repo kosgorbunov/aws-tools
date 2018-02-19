@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# DyDNS alike purposed script to apply A record for newly started EC2 instance
+# DyDNS alike purposed script to apply A record(s) for newly started EC2 instance
 # allows to save money on elastic ip addresses
 # create your own hosted zone and use its id in there
 # you can put it like in /etc/rc.local and use assigned A record to enter host
