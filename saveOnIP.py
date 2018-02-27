@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # DyDNS alike purposed script to apply A record(s) for newly started EC2 instance
-# allows to save money on elastic ip addresses
+# allows btw to avoid 5 elastic ip per region limitation
 # create your own hosted zone and use its id in there
 # you can put it like in /etc/rc.local and use assigned A record to enter host
 # do not forget to assign proper IAM role (with Route53 access) to EC2 instance to have rights for boto to run its instructions
